@@ -1,0 +1,145 @@
+body{
+	/*overflow: hidden;*/
+}
+
+.block1{
+	min-height: 100vh;
+	width: 100vw;
+	background-color: #fce8cd;
+	display: block;
+	position: relative;
+}
+.block2{
+	min-height: 100vh;
+	width: 100vw;
+	background-color: #ebf9c1;
+	display: block;
+	position: relative;
+	cursor: pointer;
+}
+
+.logo{
+	width: 200px;
+	height: 100px;
+	background-color:blue;
+	position: relative;
+	top: 50px;
+	left: 54px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.circle{
+	border-radius: 1000px;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	position: absolute;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 auto;
+	margin: 39px;
+}
+
+.form{
+    width: 300px;
+    min-height: 305px;
+    background-color: #C7C7C7;
+    position: relative;
+    left: 54px;
+    display: block;
+}
+
+.form .tfield{
+    margin: 25px auto;
+	
+    display: inline-block;
+    height: 46px;
+    border-style: none;
+    width: 222px;
+    font-size: 18pt;
+    color: rgb(58, 58, 58);
+    padding: 7px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.y-button{ 
+	height: 33px; 
+	width: 222px;  
+	color: rgb(58, 58, 58); 
+    background-color: yellow;
+    
+    
+    
+    
+	 
+	display: inline-block; 
+	  
+	 
+	border: none;
+	font-size: 14pt;
+	margin: 37px auto;
+	position: relative;
+}
+
+	 p.tel{
+    position: relative;
+
+	 
+    display: inline-block;
+    top: 50px; 
+    float: right;
+    margin-right: 29px;
+    margin-left: 50px;
+}
+
+	 .header{
+    height: 200px;
+	 	
+	 
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.content{
+    position: relative;
+	
+    width: 100%;
+    text-align: center;
+}
+
+.error{
+	
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.81);
+    padding: 8px;
+    margin-top: 25px;
+    margin-left: 15px;
+    box-shadow: 0px 3px 11px -5px;
+}
+
+@media (max-width: 600px) {
+  .circle {
+    position: relative;
+  }
+.error{
+	position: relative;
+	width: 192px;
+	margin: 0;
+
+
+}
+@media (max-width: 400px) {
+
+  p.tel{
+   float: none;
+	}
+
+
+}
+
+  
